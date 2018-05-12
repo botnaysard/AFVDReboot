@@ -1,0 +1,83 @@
+/* vars */
+
+/* mixins */
+
+/* fonts */
+
+@font-face {
+    font-family: 'hennypennyregular';
+    src: url('../fonts/hennypenny-webfont.eot'); 
+    src: url('../fonts/hennypenny-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/hennypenny-webfont.woff2') format('woff2'),
+         url('../fonts/hennypenny-webfont.woff') format('woff'),
+         url('../fonts/hennypenny-webfont.ttf') format('truetype'),
+         url('../fonts/hennypenny-webfont.svg#henny_pennyregular') format('svg');
+}
+
+/* header */
+
+#character {
+	background: lightblue url("../images/blue-bg.jpg") no-repeat center bottom;
+}
+
+#char-intro {
+	position: relative;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#char-image {
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0px 50px;
+}
+
+#char-more {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0px 50px;
+}
+
+#char-image img {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#char-name {
+	color: #fff;
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 4em;
+	font-family: hennypennyregular;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1.0);
+}
+
+#char-text {
+	font-size: 3em;
+	font-family: times;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1.0);
+	color: #fff;
+}
+
+#char-button {
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	width: 250px;
+	text-align: center;
+	margin: 40px auto 0px auto;
+	background: purple;
+	color: #fff;
+	font-size: 2em;
+	font-family: hennypennyregular;
+	-webkit-box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+}
