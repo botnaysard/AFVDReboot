@@ -1,5 +1,8 @@
 /* vars */
 
+$textshad: 1px 2px 2px rgba(0, 0, 0, 1.0);
+$boxshad: 10px 10px 23px -8px rgba(0,0,0,0.75);
+
 /* mixins */
 
 /* fonts */
@@ -16,11 +19,19 @@
 
 /* header */
 
-#character {
+#greyson {
 	background: lightblue url("../images/blue-bg.jpg") no-repeat center bottom;
 }
 
-#char-intro {
+#ruby {
+	background: lightblue url("../images/pink-bg.jpg") no-repeat center bottom;
+}
+
+#calli {
+	background: lightblue url("../images/purple-bg.jpg") no-repeat center bottom;
+}
+
+.char-intro {
 	position: relative;
 	display: block;
 	margin: 0px auto;
@@ -28,27 +39,27 @@
 	padding-bottom: 50px;
 }
 
-#char-image {
+.char-image {
 	height: 100%;
 	vertical-align: middle;
 	display: inline-block;
 	margin: 0px 50px;
 }
 
-#char-more {
+.char-more {
 	vertical-align: middle;
 	display: inline-block;
 	margin: 0px 50px;
 }
 
-#char-image img {
+.char-image img {
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
 
-#char-name {
+.char-name {
 	color: #fff;
 	display: block;
 	height: 100px;
@@ -56,17 +67,18 @@
 	text-align: center;
 	font-size: 4em;
 	font-family: hennypennyregular;
-	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1.0);
+	text-shadow: $textshad;
 }
 
-#char-text {
+.char-text {
 	font-size: 3em;
+	width: 500px;
 	font-family: times;
-	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1.0);
+	text-shadow: $textshad;
 	color: #fff;
 }
 
-#char-button {
+.char-button {
 	display: block;
 	height: 100px;
 	line-height: 100px;
@@ -77,7 +89,7 @@
 	color: #fff;
 	font-size: 2em;
 	font-family: hennypennyregular;
-	-webkit-box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+	-webkit-box-shadow: $boxshad;
+	-moz-box-shadow: $boxshad;
+	box-shadow: $boxshad;
 }
